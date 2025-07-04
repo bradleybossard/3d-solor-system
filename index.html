@@ -7,7 +7,20 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+
+    <div id="infoPanel" class="hidden">
+        <h2 id="planetName">Planet Name</h2>
+        <p><strong>Distance from Sun:</strong> <span id="distance"></span> km</p>
+        <p><strong>Orbital Speed:</strong> <span id="orbitalSpeed"></span> km/s</p>
+        <p><strong>Diameter:</strong> <span id="diameter"></span> km</p>
+        <p><strong>Fun Fact:</strong> <span id="funFact"></span></p>
+    </div>
+
+    <div id="instructions">
+        Click and drag to rotate. Scroll to zoom. Click on a planet for info.
+    </div>
+
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
